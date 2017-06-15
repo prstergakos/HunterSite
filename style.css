@@ -1,0 +1,269 @@
+/*Hunter Site Group Project / Peter Stergakos*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+		background: url(images/code.jpg) no-repeat;
+		background-size: cover;
+	}
+
+.nav  li a {
+	color: white;
+	font-size: 1em;
+	font-family: 'Revalia', cursive;
+	text-shadow: 2px 2px 2px black;
+	margin-left: 1em;	
+	margin-right: 1em;	
+	padding-bottom: 1em;
+}
+	
+.nav-pills li a:hover {
+	text-decoration: none;
+	background: none;
+}
+	
+.jumbotron {
+	background: url(images/front2.jpg) no-repeat; 
+	background-size: cover;
+	}
+		
+	.jumbotron h1 {
+		color: white;
+	text-shadow: 2px 2px 2px black;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+
+article {
+	background: white;
+	border-radius: 20px;
+	padding-top: 1em;    
+}
+
+article h3 {
+	font-family: 'Mogra', cursive;
+	color: black;
+	text-align: center;	
+	
+}
+
+article p {
+	color: black;
+	padding: .5em;
+	padding-bottom: 1em;
+}
+
+.jumbotron2 {
+background: url(images/keyboard.jpg); 
+	background-size: cover;
+}
+	
+.jumbotron2 h1 {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.jumbotron2 h1 {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-weight: bold;
+	font-size: 5em;
+}
+	
+.jumbotron3 {
+	background: url(images/contactme.jpg) no-repeat;
+	background-size:100%;
+}
+
+.jumbotron3 h1 {
+	color: black;
+	text-shadow: 2px 2px 2px white;
+	font-weight: bold;
+	font-size: 3em;
+}
+	
+h1 {
+	font-family: 'Revalia', cursive;
+	font-size: 2.5em;
+	color: white;
+	padding-bottom: .5em;
+}
+	
+.footer a {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.footer #git {
+	text-align: center;
+	padding: 5em;
+}
+
+.footer a {
+	margin-right: 2em;
+	margin-left: .5em;
+	text-shadow: 10px 10px 10px black;
+}
+	
+	
+	
+	
+@media (min-width: 992px) {  
+
+body {
+		background: url(images/gif.webp);
+		background-size: cover;
+	}
+	
+	.nav li a {
+		font-size: 1.2em;
+		padding-left: 10em;
+		padding-right: 2em;
+		padding-bottom: 2em;
+	}
+
+	.nav-pills li a:hover {
+		text-decoration: underline;
+		text-shadow: 5px 5px 5px black;
+		text-transform: uppercase;
+		background: none;
+	}
+	
+	.clean li a {
+		padding-left: 8em;
+		margin: 1em;
+	}
+
+
+	.jumbotron {
+		background: url(images/front1.jpg) no-repeat; 
+		background-size: cover;
+		background-position: center center;
+		height: 320px;
+		}
+
+	.jumbotron h1 {
+		color: black;
+		text-shadow: 4px 4px 4px blue;
+		font-weight: bold;
+		font-size: 5em;
+		text-align: center;
+	}
+
+	.jumbotron2 {
+		background: url(images/keyboard.jpg); 
+		background-size: cover;
+		background-position: center center;
+		height: 320px;
+	}
+	
+	.jumbotron2 h1 {
+		color: black;
+		text-shadow: 4px 4px 4px blue;
+		font-weight: bold;
+		font-size: 7em;
+	}
+	
+	.jumbotron3 {
+		background: url(images/contactme.jpg) no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 325px;
+		
+	}
+
+	.jumbotron3 h1 {
+		color: black;
+		text-shadow: 4px 4px 4px blue;
+		font-weight: bold;
+		font-size: 6em;
+		text-align: center;
+	}
+
+	article {
+		background: white;
+		padding: .5px 15px;
+		border-radius: 20px;
+	}
+
+	article h3 {
+		font-family: 'Mogra', cursive;
+		color: black;
+		text-align: center;	
+	
+	}
+
+	article p {
+		color: black;
+	}
+
+
+	h1 {
+		font-family: 'Revalia', cursive;
+		font-size: 2.5em;
+		color: white;
+		padding-bottom: .5em;
+	}
+
+	.header ul, .footer ul {
+		padding: 0 20px;
+		margin: 0;
+		list-style: none;
+	}
+	
+	.sepimg img {
+		position: center;
+	}
+
+	.footer a {
+		color: white;
+		text-shadow: 2px 2px 2px black;
+		text-align: right;
+		margin-right: 5em;
+		text-shadow: 10px 10px 10px black;
+	}
+	
+	.footer a:hover {
+		color: #228DFF;
+		animation: neon 1.2s ease-in-out infinite alternate;
+	}
+	
+	@keyframes neon {
+		to {
+			text-shadow: 5px 5px 5px white;
+		}
+	}
+
+	.footer #git {
+		text-align: center;
+		padding: 5em;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
