@@ -133,6 +133,28 @@ body {
 		background: none;
 	}
 	
+	header {
+		text-align: center;
+		font-family: 'Revalia', cursive;
+		list-style-type: none;
+		padding-bottom: -3em;
+		font-size: 20px;
+		
+	}
+	
+	#nav2 a:hover{
+		text-decoration: none;
+		text-shadow: 5px 5px 5px black;
+		text-transform: uppercase;
+		background: none;
+		color: white;
+	}
+	
+	header a{
+		color: white;
+		text-decoration: underline;
+	}
+	
 	.clean li a {
 		padding-left: 8em;
 		margin: 1em;
@@ -216,7 +238,8 @@ body {
 	}
 	
 	.sepimg img {
-		position: center;
+		position: relative;
+		margin-left: 17em;
 	}
 
 	.footer a {
