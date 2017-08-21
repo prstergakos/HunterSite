@@ -12,12 +12,12 @@ body {
 
 .nav  li a {
 	color: white;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family: 'Revalia', cursive;
 	text-shadow: 2px 2px 2px black;
-	margin-left: 1em;	
-	margin-right: 1em;	
-	padding-bottom: 1em;
+	margin-left: 1em;
+	display: inline;
+	
 }
 	
 .nav-pills li a:hover {
@@ -31,7 +31,7 @@ body {
 	}
 		
 	.jumbotron h1 {
-		color: white;
+	color: white;
 	text-shadow: 2px 2px 2px black;
 	font-weight: bold;
 	font-size: 3em;
@@ -120,18 +120,17 @@ body {
 	}
 	
 	.nav li a {
-		font-size: 1.2em;
-		padding-left: 10em;
-		padding-right: 2em;
-		padding-bottom: 2em;
+		font-size: 1.5em;
+		padding-left: 4em;
+		padding-right: 3em;
 	}
 
 	.nav-pills li a:hover {
-		text-decoration: underline;
 		text-shadow: 5px 5px 5px black;
 		text-transform: uppercase;
 		background: none;
 	}
+	
 	
 	header {
 		text-align: center;
@@ -156,21 +155,20 @@ body {
 	}
 	
 	.clean li a {
-		padding-left: 8em;
-		margin: 1em;
+		padding-right: 1em;
 	}
-
-
+	
 	.jumbotron {
 		background: url(images/front1.jpg) no-repeat; 
 		background-size: cover;
 		background-position: center center;
 		height: 320px;
+		margin-bottom: .5em;
 		}
 
 	.jumbotron h1 {
-		color: black;
-		text-shadow: 4px 4px 4px white;
+		color: white;
+		text-shadow: 0 1px 0 black , -1px 0 0 black , -1px 2px 0 black , -2px 1px 0 black , -2px 3px 0 black , -3px 2px 0 black , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 black , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 black , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 black , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 black , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 black ;
 		font-weight: bold;
 		font-size: 7em;
 		text-align: center;
@@ -186,7 +184,7 @@ body {
 	
 	.jumbotron2 h1 {
 		color: blue;
-		text-shadow: 4px 4px 4px white;
+		text-shadow: 0 1px 0 black , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
 		font-weight: bold;
 		font-size: 7em;
 	}
@@ -201,7 +199,7 @@ body {
 
 	.jumbotron3 h1 {
 		color: black;
-		text-shadow: 4px 4px 4px blue;
+		text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
 		font-weight: bold;
 		font-size: 6em;
 		text-align: center;
@@ -212,6 +210,7 @@ body {
 		background: white;
 		padding: .5px 15px;
 		border-radius: 20px;
+		margin-top: 1em;
 	}
 
 	article h3 {
